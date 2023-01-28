@@ -1,43 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!--=============== UNICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23fafafa%22></rect><path d=%22M25.56 68.40L25.56 68.40Q30.60 68.40 33 66.32Q35.40 64.24 35.40 60.96L35.40 60.96Q35.40 58.08 33.56 56.32Q31.72 54.56 27.72 53.36L27.72 53.36L21.72 51.52Q18.92 50.64 16.64 49.48Q14.36 48.32 12.76 46.76Q11.16 45.20 10.32 43.08Q9.48 40.96 9.48 38.16L9.48 38.16Q9.48 31.84 14.16 28.20Q18.84 24.56 26.84 24.56L26.84 24.56Q30.12 24.56 32.92 25.08Q35.72 25.60 37.76 26.52Q39.80 27.44 40.96 28.68Q42.12 29.92 42.12 31.36L42.12 31.36Q42.12 32.72 41.44 33.72Q40.76 34.72 39.80 35.36L39.80 35.36Q37.80 33.84 34.56 32.76Q31.32 31.68 27.40 31.68L27.40 31.68Q23.00 31.68 20.60 33.44Q18.20 35.20 18.20 38.16L18.20 38.16Q18.20 40.56 19.88 42.04Q21.56 43.52 25.40 44.64L25.40 44.64L30.04 46.00Q36.76 48.00 40.48 51.48Q44.20 54.96 44.20 60.96L44.20 60.96Q44.20 64.16 42.96 66.84Q41.72 69.52 39.40 71.44Q37.08 73.36 33.60 74.40Q30.12 75.44 25.72 75.44L25.72 75.44Q22.04 75.44 19.00 74.80Q15.96 74.16 13.76 73.12Q11.56 72.08 10.36 70.72Q9.16 69.36 9.16 67.84L9.16 67.84Q9.16 66.24 10.12 65.12Q11.08 64.00 12.36 63.44L12.36 63.44Q14.28 65.20 17.60 66.80Q20.92 68.40 25.56 68.40ZM90.44 31.52L90.44 31.52Q90.44 32.88 89.68 33.92Q88.92 34.96 87.88 35.44L87.88 35.44Q85.80 34.08 83.12 32.88Q80.44 31.68 76.36 31.68L76.36 31.68Q72.84 31.68 69.92 32.88Q67 34.08 64.88 36.40Q62.76 38.72 61.56 42.16Q60.36 45.60 60.36 50.08L60.36 50.08Q60.36 59.12 64.84 63.76Q69.32 68.40 76.68 68.40L76.68 68.40Q80.60 68.40 83.48 67.28Q86.36 66.16 88.44 64.72L88.44 64.72Q89.32 65.28 90.08 66.32Q90.84 67.36 90.84 68.72L90.84 68.72Q90.84 69.84 90.24 70.80Q89.64 71.76 88.28 72.56L88.28 72.56Q86.52 73.68 83.48 74.56Q80.44 75.44 75.80 75.44L75.80 75.44Q70.68 75.44 66.28 73.88Q61.88 72.32 58.60 69.16Q55.32 66 53.44 61.24Q51.56 56.48 51.56 50.08L51.56 50.08Q51.56 43.84 53.48 39.04Q55.40 34.24 58.64 31.04Q61.88 27.84 66.20 26.20Q70.52 24.56 75.40 24.56L75.40 24.56Q78.84 24.56 81.60 25.16Q84.36 25.76 86.32 26.72Q88.28 27.68 89.36 28.96Q90.44 30.24 90.44 31.52Z%22 fill=%22%23333333%22></path></svg>"
+    />
+
+    <title>Simon Criado | Web Developer</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
