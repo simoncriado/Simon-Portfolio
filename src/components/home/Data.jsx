@@ -55,7 +55,7 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Junior Web Developer</h3>
+      <h3 className="home__subtitle">Jr. Full Stack Web Developer</h3>
       <p className="home__description">
         Web developer based in Barcelona, I am an adventurous person and I am
         ready for the next challenge!

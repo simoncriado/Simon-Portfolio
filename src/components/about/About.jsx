@@ -17,7 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Junior Frontend Web Developer who started coding in 2019 when I
+            Junior Full Stack Web Developer who started coding in 2019 when I
             completed an intensive coding bootcamp at Ubiqum Code Academy
             (Barcelona). Since then I have worked on various projects and
             websites.
