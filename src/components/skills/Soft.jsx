@@ -51,7 +51,7 @@ const Soft = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Selft-aware</h3>
+              <h3 className="skills__name">Self-aware</h3>
             </div>
           </div>
         </div>
