@@ -12,8 +12,19 @@ import cocktail from "../../assets/cocktail-banner.png";
 import room1 from "../../assets/room1.jpg";
 import hotel from "../../assets/hotel.jpg";
 import database from "../../assets/database.jpg";
+import orders from "../../assets/orders.jpeg";
 
 export const projectsData = [
+  {
+    id: 15,
+    image: orders,
+    title: "Order Management System",
+    description:
+      "Miniature version of an OMS: view and create orders or edit the state of an existing one.",
+    category: "own projects",
+    website: "",
+    github: "https://github.com/simoncriado/Order-Management-System",
+  },
   {
     id: 14,
     image: database,
