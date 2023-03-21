@@ -13,6 +13,7 @@ import room1 from "../../assets/room1.jpg";
 import hotel from "../../assets/hotel.jpg";
 import database from "../../assets/database.jpg";
 import orders from "../../assets/orders.jpeg";
+import unit from "../../assets/unit.jpg";
 
 export const projectsData = [
   {
@@ -20,7 +21,7 @@ export const projectsData = [
     image: orders,
     title: "Order Management System",
     description:
-      "Miniature version of an OMS: view and create orders or edit the state of an existing one.",
+      "Miniature version of an OMS: view and create orders or edit the state of an existing one. In the GitHub Repo you will find both Client and Server parts.",
     category: "own projects",
     website: "",
     github: "https://github.com/simoncriado/Order-Management-System",
@@ -72,6 +73,16 @@ export const projectsData = [
     category: "own projects",
     website: "https://simoncriado.github.io/OXYGENShop/",
     github: "https://github.com/simoncriado/OXYGENShop",
+  },
+  {
+    id: 16,
+    image: unit,
+    title: "Unit Converter",
+    description:
+      "Simple unit converter which was the technical test from a selection process.",
+    category: "own projects",
+    website: "https://simoncriado.github.io/unit-converter/",
+    github: "https://github.com/simoncriado/unit-converter",
   },
   {
     id: 10,
