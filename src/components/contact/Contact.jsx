@@ -1,9 +1,9 @@
-import React, { useRef, useState, useEffect } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useState, useEffect } from "react";
+// import emailjs from "@emailjs/browser";
 import "./contact.css";
 
 const Contact = () => {
-  const form = useRef();
+  // const form = useRef();
   const [btnText, setBtnText] = useState("Send message");
 
   useEffect(() => {
@@ -14,20 +14,20 @@ const Contact = () => {
     }
   }, [btnText]);
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    setBtnText("Message sent successfully!");
+  //   setBtnText("Message sent successfully!");
 
-    emailjs.sendForm(
-      "service_urfqnib",
-      "contact_form",
-      form.current,
-      "ZzqUeRFVlExLl8SDK"
-    );
+  //   emailjs.sendForm(
+  //     "service_urfqnib",
+  //     "contact_form",
+  //     form.current,
+  //     process.env.CONTACT_FORM_KEY
+  //   );
 
-    e.target.reset();
-  };
+  //   e.target.reset();
+  // };
 
   return (
     <section className="contact section" id="contact">
@@ -36,14 +36,16 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Send me an E-mail</h3>
+          {/* <h3 className="contact__title">Send me an E-mail</h3> */}
 
           <div className="contact__info">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">E-mail</h3>
-              <span className="contact__card-data">scriado.f@gmail.com</span>
+              <span className="contact__card-data">
+                scf.contact.service@gmail.com
+              </span>
 
               <a
                 href="mailto:examplemail@gmail.com.com"
@@ -56,7 +58,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="contact__content">
+        {/* <div className="contact__content">
           <h3 className="contact__title">Contact form</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
@@ -129,7 +131,7 @@ const Contact = () => {
               )}
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   );
