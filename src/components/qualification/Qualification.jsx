@@ -123,7 +123,7 @@ const Qualification = () => {
                   Oxygen Academy - Spain (remote)
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
               </div>
             </div>
@@ -171,7 +171,8 @@ const Qualification = () => {
                   Bhaasha - Zurich
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2019 - 20222
+                  <i className="uil uil-calendar-alt"></i> November 2019 -
+                  February 2022
                 </div>
               </div>
             </div>
@@ -179,7 +180,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Junior Front End Developer (Apprenticenship)
+                  Junior Front End Developer
                 </h3>
                 <span className="qualification__subtitle">
                   Own and personal projects
@@ -201,6 +202,7 @@ const Qualification = () => {
 
               <div>
                 <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
 
               <div>
@@ -212,6 +214,46 @@ const Qualification = () => {
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - Present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Junior Full Stack Developer
+                </h3>
+                <span className="qualification__subtitle">
+                  Prototyp - Barcelona
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> April 2023 - July
+                  2023
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  Junior Full Stack Developer
+                </h3>
+                <span className="qualification__subtitle">
+                  Emotion - Barcelona
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> August 2023 - Present
                 </div>
               </div>
             </div>
