@@ -16,14 +16,13 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     setBtnText("Message sent successfully!");
 
     emailjs.sendForm(
       "service_urfqnib",
       "contact_form",
       form.current,
-      process.env.CONTACT_FORM_KEY
+      process.env.REACT_APP_CONTACT_FORM_KEY
     );
 
     e.target.reset();
@@ -36,13 +35,11 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Send me an E-mail</h3>
+          <h3 className="contact__title">Send me an e-mail</h3>
 
           <div className="contact__info">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
-
-              <h3 className="contact__card-title">E-mail</h3>
               <span className="contact__card-data">
                 scf.contact.service@gmail.com
               </span>
