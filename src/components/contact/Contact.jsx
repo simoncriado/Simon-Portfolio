@@ -22,7 +22,7 @@ const Contact = () => {
       "service_urfqnib",
       "contact_form",
       form.current,
-      process.env.CONTACT_FORM_KEY
+      process.env.REACT_APP_CONTACT_FORM_KEY
     );
 
     e.target.reset();
