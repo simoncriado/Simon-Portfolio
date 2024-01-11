@@ -16,7 +16,6 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     setBtnText("Message sent successfully!");
 
     emailjs.sendForm(
