@@ -14,8 +14,30 @@ import hotel from "../../assets/hotel.jpg";
 import database from "../../assets/database.jpg";
 import orders from "../../assets/orders.jpeg";
 import unit from "../../assets/unit.jpg";
+import event from "../../assets/event.jpg";
+import emotion from "../../assets/emotion.jpg";
 
 export const projectsData = [
+  {
+    id: 18,
+    image: emotion,
+    title: "Emotion Website",
+    description:
+      "Homepage for Emotion. Tool to collect leads that will be sent to the CRM Pipedrive. Behind this is also the admin dashboard.",
+    category: "own projects",
+    website: "https://emotion.green/",
+    github: "",
+  },
+  {
+    id: 17,
+    image: event,
+    title: "EventBlender",
+    description:
+      "This app gives the guests of an event the best chance to get to know each other by using the algorithmic seating/group divider.",
+    category: "own projects",
+    website: "https://eventblender.app/",
+    github: "",
+  },
   {
     id: 15,
     image: orders,
@@ -31,7 +53,7 @@ export const projectsData = [
     image: database,
     title: "Hotel Miranda Back End",
     description:
-      "WORK IN PROGRESS. Hotel database. Will include routes, authentication, database, etc.",
+      "WORK IN PROGRESS. Hotel database. Done as a part of the apprenticenship with Oxygen Academy. Will include routes, authentication, database, etc.",
     category: "own projects",
     website: "",
     github: "https://github.com/simoncriado/Hotel-Miranda-Backend",

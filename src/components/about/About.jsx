@@ -23,7 +23,12 @@ const About = () => {
             websites.
             <br />
             In October 2022 I joined the Full Stack training at the Oxygen
-            Academy (Remote) to solidify my coding knowledge.
+            Academy (remote) to solidify my coding knowledge.
+            <br />
+            After completing my training, I collaborated on a project with
+            Prototyp, where I applied my skills in a team environment. Shortly
+            after, I joined Emotion, where I have been working continuously to
+            expand my expertise.
             <br />
             I am an adventurous and happy person, and through my previous
             experiences I have learnt how to work in a team and to adapt and

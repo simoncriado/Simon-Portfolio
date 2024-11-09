@@ -54,16 +54,22 @@
 }
 
 [data-theme="dark"] {
+  /* Monochrome base */
   --hue: 0;
   --sat: 0%;
+
+  /* Text and Title Colors */
   --title-color: hsl(var(--hue), var(--sat), 98%);
   --title-color-dark: hsl(var(--hue), var(--sat), 46%);
   --text-color: hsl(var(--hue), var(--sat), 60%);
-  --body-color: #121212;
+
+  /* Backgrounds */
   --background-color: #121212;
   --container-color: #313131;
+
+  /* Header and Body */
   --header-color: hsl(var(--hue), var(--sat), 46%);
-  --header-color-dark: hsl(var(--hue), var(--sat), 98%);
+  --header-color-dark: hsl(var(--hue), var(--sat), 98%s);
 }
 
 /* Responsive typography */

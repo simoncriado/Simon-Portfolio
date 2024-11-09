@@ -3,7 +3,6 @@ import "./skills.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
 import Devops from "./Devops";
-import Soft from "./Soft";
 
 const Skills = () => {
   return (
@@ -15,7 +14,6 @@ const Skills = () => {
         <Frontend />
         <Backend />
         <Devops />
-        <Soft />
       </div>
     </section>
   );

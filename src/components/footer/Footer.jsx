@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
 
         <span className="footer__copy">
-          &#169; 2023 Simon Criado. All rigths reserved
+          &#169; 2024 Simon Criado. All rigths reserved
         </span>
       </div>
     </footer>

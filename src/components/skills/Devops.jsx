@@ -58,7 +58,7 @@ const Devops = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Netlify</h3>
+              <h3 className="skills__name">Vercel</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>

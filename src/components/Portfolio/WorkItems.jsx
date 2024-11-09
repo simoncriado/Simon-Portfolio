@@ -19,16 +19,19 @@ const WorkItems = ({ item }) => {
       ) : (
         <></>
       )}
-
-      <a
-        href={item.github}
-        target="_blank"
-        rel="noreferrer"
-        className="work__button"
-      >
-        GitHub Repo
-        <i className="bx bx-right-arrow-alt work__button-icon"></i>
-      </a>
+      {item.github !== "" ? (
+        <a
+          href={item.github}
+          target="_blank"
+          rel="noreferrer"
+          className="work__button"
+        >
+          GitHub Repo
+          <i className="bx bx-right-arrow-alt work__button-icon"></i>
+        </a>
+      ) : (
+        <></>
+      )}
     </div>
   );
 };
