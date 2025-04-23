@@ -17,10 +17,9 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Junior Full Stack Web Developer who started coding in 2019 when I
-            completed an intensive coding bootcamp at Ubiqum Code Academy
-            (Barcelona). Since then I have worked on various projects and
-            websites.
+            Full Stack Web Developer who started coding in 2019 when I completed
+            an intensive coding bootcamp at Ubiqum Code Academy (Barcelona).
+            Since then I have worked on various projects and websites.
             <br />
             In October 2022 I joined the Full Stack training at the Oxygen
             Academy (remote) to solidify my coding knowledge.
